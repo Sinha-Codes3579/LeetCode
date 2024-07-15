@@ -1,4 +1,4 @@
-package com.numberofatoms;
+package com.numberofatoms726;
 import java.util.*;
 public class countOfAtoms {
     public static String count(String formula){

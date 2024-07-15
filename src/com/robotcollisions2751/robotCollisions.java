@@ -1,4 +1,4 @@
-package com.robotcollisions;
+package com.robotcollisions2751;
 import java.util.*;
 public class robotCollisions {
     public static void main(String[] args) {
