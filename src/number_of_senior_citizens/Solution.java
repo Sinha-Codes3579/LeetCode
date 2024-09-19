@@ -15,7 +15,7 @@ public class Solution {
                 if(age > 60){
                     count++;
                 }
-            }catch(NummberFormatException e){
+            }catch(NumberFormatException e){
                 //Handle the case where age is not a valid integer
                 continue;
                 //Skip the detail if age is not a valid number
