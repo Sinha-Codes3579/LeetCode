@@ -9,7 +9,7 @@ public class solution {
         long chemistrySum = 0;
         for(int i = 0; i < n/2; i++){
             if(skill[i] + skill[n - i - 1] != totalSkill){
-                return -1;
+               return -1;
             }
             chemistrySum += (long) (skill[i] * skill[n - i- 1]);
         }
