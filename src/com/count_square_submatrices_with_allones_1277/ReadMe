@@ -1,0 +1,6 @@
+Create a dp table(where dp stands for dynamic programming)
+Initialize each of row and column of the matrix
+check each position and take the minimal of previous square dp, above square dp and on the previous diagonal
+Add 1 to it
+Like: dp[i][j] = 1 + Math.min(Math.min(dp[i - 1][j], dp[i][j - 1]), dp[i - 1][j - 1])
+add it also
