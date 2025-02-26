@@ -16,3 +16,6 @@ public class solution {
         System.out.println((maxAbsoluteSum(nums)));
     }
 }
+//Kadane's algorithm can be modified to solve efficiently
+//Instead of just tracking maximum subarray sum we can also track minimum subarray sum
+//to find the maximum absolute sum return the abs sum of (maxSum - minSum)
