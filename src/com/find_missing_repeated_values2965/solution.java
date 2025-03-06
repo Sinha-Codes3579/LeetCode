@@ -27,3 +27,31 @@ public class solution {
         System.out.println(java.util.Arrays.toString(count));
     }
 }
+
+
+//    public int[] findMissingAndRepeatedValues(int[][] grid){
+//        int n = grid.length*grid.length;
+//        int[] count = new int[n + 1];
+//        int max = -1;
+//        ArrayList<Integer> res = new ArrayList<>();
+//        for(int i = 0; i < grid.length; i++){
+//            for(int j = 0; j < grid[0].length; j++){
+//                int currNum = grid[i][j];
+//                if(count[currNum] != 0){
+//                    res.add(currNum);
+//                }
+//                max = Math.max(currNum, max);
+//                count[currNum]++;
+//            }
+//        }
+//        for(int i = 1; i <= n; i++){
+//            if(count[i] == 0){
+//                res.add(i);
+//            }
+//        }
+//        int[] res1 = new int(res.size());
+//        for(int i = 0; i < res.size(); i++){
+//            rs1[i] = res.get(i);
+//        }
+//        return res1;
+//    }
